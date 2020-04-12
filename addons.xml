@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<!-- <addon id="plugin.video.canadanepal"
+       name="CanadaNepal"
+       version="0.5.2"
+       provider-name="humla">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="1.0.0"/>
+        <import addon="script.module.requests" version="2.7.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Watch Nepali TV serials from canadanepal.info</summary>
+        <description>This XBMC plugin allows to watch Nepali TV serials, Live TV, Live FM and more videos from canadanepal.info</description>
+    </extension>
+</addon> -->
+<addon id="plugin.video.einthusan"
+       name="Einthusan"
+       version="1.6.4"
+       provider-name="humla">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.7.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Watch Hindi, Tamil  movies</summary>
+        <description>This XBMC plugin allows to watch Hindi and Tamil movies from Einthusan.com. Please support them.
+
+        Credits to suriya222 for the thumbnails.</description>
+    </extension>
+</addon>
+<addon id="repository.humla" name="humla Add-on Repository" 
+    version="1.0.8" 
+    provider-name="humla">
+	<extension point="xbmc.addon.repository" name="humla Add-on Repository">
+		<info compressed="false">https://raw.githubusercontent.com/humla/canadanepal-xbmc/master/humla_repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/humla/canadanepal-xbmc/master/humla_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/humla/canadanepal-xbmc/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons for XBMC from humla Add-on Repository</summary>
+		<description>Video plug-ins for XBMC by humla!</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
